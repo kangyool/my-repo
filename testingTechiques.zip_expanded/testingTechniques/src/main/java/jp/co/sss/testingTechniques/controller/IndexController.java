@@ -12,7 +12,7 @@ public class IndexController {
 	@RequestMapping(path = "/")
 	public String index() {
 
-		return "hello";
+		return "hi!";
 	}
 
 }
